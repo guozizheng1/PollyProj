@@ -14,8 +14,17 @@ public class Test {
 		/*1、向上转型、隐式转型、自动转型
 		 *2、父类引用指向子类实例,可以调用子类重写父类的方法以及父类派生的方法，无法调用子类独有的方法
 		 *3、小类转型为大类
+		 *4、注意：父类中的静态方法无法被子类重写，所以向上转型之后，只能调用到父类的静态方法
 		 * */
 		Animal two = new Cat();//2
+//		Cat cat = new Cat();
+//		two = cat;
+//		two.eat();
+		two.say();
+		Cat cat = (Cat)two;
+		cat.say();
+		
+		
 		Animal three = new Dog();//3
 		
 		one.eat();

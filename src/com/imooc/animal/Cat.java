@@ -33,5 +33,16 @@ public class Cat extends Animal {
 		// TODO Auto-generated method stub
 		System.out.println("猫吃鱼~~~");
 	}
+	
+	public static void say() {
+		System.out.println("小猫通过碰胡须来打招呼");
+	}
+
+	public void playBall() {
+		System.out.println("小猫喜欢玩线球");
+		
+	}
+	
+	
 
 }

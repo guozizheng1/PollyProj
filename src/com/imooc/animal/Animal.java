@@ -34,7 +34,10 @@ public class Animal {
 	public void eat(){
 		System.out.println("动物都有吃东西的能力");
 	}
-	
+	//如果父类当中含有static修饰的方法，则该方法是无法被子类重写的，只能被继承
+	public static void say() {
+		System.out.println("动物间是需要打招呼的");
+	}
 	
 
 }
