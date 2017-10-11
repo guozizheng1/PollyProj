@@ -9,7 +9,7 @@ public class Test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Animal one = new Animal();//1
+		//Animal one = new Animal();//1
 		
 		/*1、向上转型、隐式转型、自动转型
 		 *2、父类引用指向子类实例,可以调用子类重写父类的方法以及父类派生的方法，无法调用子类独有的方法
@@ -27,7 +27,7 @@ public class Test {
 		
 		Animal three = new Dog();//3
 		
-		one.eat();
+		//one.eat();
 		two.eat();
 		two.setMonth(2);
 		two.getMonth();
